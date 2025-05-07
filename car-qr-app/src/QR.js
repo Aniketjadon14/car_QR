@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeCanvas } from "qrcode.react";
 
 const QR = () => {
-  const contactUrl = "http://192.168.1.12:3000/Connect"; // Replace with your deployed URL
+  const contactUrl = "https://qr.d1kqaqcfun361h.amplifyapp.com/connect"; // Replace with your deployed URL
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
